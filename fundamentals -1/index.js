@@ -61,7 +61,7 @@ function calculateAverageScore(scores) {
 }
 
 // Calculate average scores
-const scoreDolphins = calculateAverageScore(dolphinScores);
+const scoreDolphins = calculateAverageScore(dolphinScores); l
 const scoreKoalas = calculateAverageScore(koalaScores);
 
 // Determine the winner
@@ -72,3 +72,21 @@ if (scoreDolphins > scoreKoalas) {
 } else {
     console.log("Both win the trophy");
 }
+// Define the bill values for testing
+let bill = 275;
+
+let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20;
+let total = bill + tip;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}.`);
+// Function to calculate the tip and total value
+function calculateTip(bill) {
+    // Declare the tip variable
+    let tip;
+    // Calculate the tip using a ternary operator
+
+    // Calculate the total value
+
+    // Print the result
+}
+
+
